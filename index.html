@@ -11,6 +11,8 @@
     <h2 id="n3"></h2>
     <h2 id="news4"></h2>
     <h2 id="n5"></h2>
+    <h1 class="mystudent3"></h1>
+    <h1 id="n6"></h1>
     <!-- <ul>
         <li> js object</li>
     </ul> -->
@@ -32,7 +34,24 @@
             surname:"rathore"
 
                 }
-        console.log(student_2.name+' '+student_2.surname)
+               
+        console.log(student_2.name+' '+student_2.surname);
+
+        window.alert(student_2["name"]);
+
+    </script>
+    <script>
+
+        var $student3={
+            name:"Rudransh",
+            surname:"Rathore"
+
+        }
+        // objectName[expression]
+        let n="name";
+        var n2="surname"
+        document.querySelector('h1.mystudent3').innerHTML=$student3[n]+" "+$student3[n2];
+
     </script>
     
 </body>

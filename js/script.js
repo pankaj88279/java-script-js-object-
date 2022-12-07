@@ -33,7 +33,7 @@ n2=document.getElementById('news2').style.color="red"
 
 }
 var news3=news3.w1+` `+news3.w2+' '+news3.w3+" "+news3.w4+" "+news3.w5
-document.getElementById("n3").innerHTML=news3;
+var n3=document.getElementById("n3").innerHTML=news3;
 
 
 var news4={
@@ -64,7 +64,7 @@ x.style.color="green";
   let n5=document.getElementById("n5").innerHTML=news5
   document.getElementById("n5").style.color="yellow";
 
-  let news6={
+  var news6={
             // p:v
             w1:"MCD election results",
             w2:"2022 LIVE",
@@ -74,4 +74,5 @@ x.style.color="green";
             w6:"Congress routed"
 
   }
-  var news5=news5
+  var news6=news6["w1"]+' '+news6["w2"]+" "+news6["w3"]+` `+news6['w4']+' '+news6[`w5`]
+  let n6=document.getElementById("n6").innerHTML=news6
